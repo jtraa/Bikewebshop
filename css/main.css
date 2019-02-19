@@ -55,6 +55,37 @@ body #myVideo #alphaheader {
   flex: 2;
 }
 
+.peace a :hover{
+color: white;
+}
+
+.support a :hover{
+  color: white;
+  }
+
+  .language a :hover{
+    color: white;
+    }
+
+  /*hover buttons aanpassen*/
+.list-bottom li {
+      text-align: center;
+      display: block;
+      padding-top: 30px;
+
+  }
+
+/* .list-bottom li a :hover{
+ 
+} */
+
+.list-bottom li a {
+  padding-top: 
+}
+
+.list-bottom :hover {
+  background-color: yellow;
+}
 .section2 {
   flex: 8;
   display: flex;
@@ -62,6 +93,8 @@ body #myVideo #alphaheader {
   justify-content: center;
   align-items: center;
 }
+
+
 
 .section2-1 {
   background-color: black;
@@ -82,9 +115,7 @@ body #myVideo #alphaheader {
   align-items: center;
 }
 
-.list-bottom li {
-  text-align: left;
-}
+
 
 .sectionmid a {
   text-decoration: none;
