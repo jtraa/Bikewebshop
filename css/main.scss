@@ -1,0 +1,53 @@
+
+$colors: (
+   primary: #005DFF,
+   primary-light: lighten(#005DFF, 40%),
+   primary-dark: darken(#005DFF, 40%),
+   accent: #FFF6BB
+);
+
+$padding: 15px;
+$borders: 15px;
+$border: 2px solid red;
+@function color($color-name){
+   @return map-get($colors, $color-name);
+}
+
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Montserrat';
+   margin: 0;
+
+   #myVideo {
+      position: fixed;
+      top: 40%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -100;
+      -ms-transform: translateX(-50%) translateY(-50%);
+      -moz-transform: translateX(-50%) translateY(-50%);
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+   
+   #alphaheader{
+     background-color: red;
+     padding: 5px;
+      width: 100vh;
+
+   }
+   }
+}
+
+
+
+
+

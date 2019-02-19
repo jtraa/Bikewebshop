@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat";
+  margin: 0;
+}
+
+body #myVideo {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  margin-top: 6%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+body #myVideo #alphaheader {
+  background-color: red;
+  padding: 5px;
+  width: 100vh;
+}
+/*# sourceMappingURL=main.css.map */
+
+.container-header {
+  display: flex;
+  height: 100px;
+}
+
+.wrapper-alphaheader {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.section {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.section1 {
+  flex: 2;
+}
+
+.section2 {
+  flex: 8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section2-1 {
+  background-color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 13px;
+}
+
+.sectionmid {
+  width: 100%;
+}
+
+.list-top {
+  display: flex;
+  flex: 1;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-bottom li {
+  text-align: left;
+}
+
+.sectionmid a {
+  text-decoration: none;
+  color: black;
+}
+
+.section2-1 a {
+  color: #cccccc;
+}
+.section2-2 {
+  font-size: 15px;
+}
+.top2 {
+  align-content: right;
+  background-color: black;
+  margin-left: 300px;
+}
+
+li {
+  text-align: center;
+  flex: 1;
+  margin-right: 5px;
+  /* background-color: yellow; */
+}
+
+.sectionmid {
+  display: flex;
+  flex: 1;
+}
+
+#logo {
+  width: 50%;
+}
+
+#cart {
+  width: 35%;
+}
+.winkelwagen {
+  background-color: #ffff00;
+}
+.ride{
+  text-align: left;
+  padding-right: 35px;
+}
+
