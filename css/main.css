@@ -34,6 +34,7 @@ body #myVideo #alphaheader {
 .container-header {
   display: flex;
   height: 100px;
+  
 }
 
 .wrapper-alphaheader {
@@ -41,6 +42,7 @@ body #myVideo #alphaheader {
   flex-direction: row;
   width: 100%;
   height: 100%;
+  
 }
 
 .section {
@@ -49,6 +51,7 @@ body #myVideo #alphaheader {
   justify-content: center;
   align-items: center;
   background-color: white;
+  
 }
 
 .section1 {

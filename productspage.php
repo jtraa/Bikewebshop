@@ -14,7 +14,7 @@
   <div class="container-header">
   <div class="wrapper-alphaheader">
       <div class="section section1 image">
-          <img id="logo" src="img/VANMOOF.jpg">
+      <img id="logo" src="img/VANMOOF.jpg">
          </div>  
         <div class="section section2 header">
           <div class="sectionmid section2-1">
@@ -41,7 +41,7 @@
         <div class="sectionmid section2-2 header2">
               <ul class="list-top list-bottom">
                 <li class="bikes">
-                    <a href="products.php"><strong>Bikes</strong></a>
+                    <a href="productspage.php"><strong>Bikes</strong></a>
                 </li>
                 <li class="ride">
                     <a href="ridethefuture.php"><strong>Ride the future</strong></a>
@@ -58,7 +58,7 @@
         </div>
     </div>
         <div class="section section3 winkelwagen">
-                <img id="cart" src="img/Winkelwagen2.png";>
+                 <img id="cart" src="img/Winkelwagen2.png";>
         </div>  
     </div>
 

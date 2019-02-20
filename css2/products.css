@@ -38,14 +38,38 @@ body {
  background-color: black;
 margin-top: 7.4%;
   
-  margin-bottom: 5%;
+  /* margin-bottom: 5%; */
   margin-right: 10%;
   color: white;
   font-size: 16px;
   font-weight: 300;
   /* border: 2px solid red; */
   }
-          
+
+  h5{
+  text-align: right;
+  padding-right: 50px;
+  font-size: 15px;
+  }    
+
+  .add {
+    text-align: left;
+  }
+
+  #add a {
+    text-decoration: none;
+    color: white;
+    padding-right: 100px;
+    text-align: left;
+  }
+
+  #add a :hover{
+    background-color: #ffff00;
+    color: black;
+    border-radius: 5px;
+    
+    margin-right: 475px; 
+  }
 .producten{
    padding: 0;
    margin: 0;
