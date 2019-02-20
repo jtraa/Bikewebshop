@@ -55,33 +55,28 @@ body #myVideo #alphaheader {
   flex: 2;
 }
 
-.peace a :hover{
-color: white;
+.peace a :hover {
+  color: white;
 }
 
-.support a :hover{
+.support a :hover {
   color: white;
-  }
+}
 
-  .language a :hover{
-    color: white;
-    }
+.language a :hover {
+  color: white;
+}
 
-  /*hover buttons aanpassen*/
+/*hover buttons aanpassen*/
 .list-bottom li {
-      
-      display: block;
-      padding-top: 14px;
-      padding-bottom: 19px;
-
-  }
-
-
+  display: block;
+  padding-top: 13px;
+  padding-bottom: 18px;
+}
 
 /* .list-bottom li a :hover{
  
 } */
-
 
 .list-bottom :hover {
   background-color: yellow;
@@ -93,8 +88,6 @@ color: white;
   justify-content: center;
   align-items: center;
 }
-
-
 
 .section2-1 {
   background-color: black;
@@ -115,8 +108,6 @@ color: white;
   align-items: center;
 }
 
-
-
 .sectionmid a {
   text-decoration: none;
   color: black;
@@ -127,11 +118,9 @@ color: white;
 }
 .section2-2 {
   font-size: 15px;
-  
 }
 
 .section2-2 li a {
- 
 }
 .top2 {
   align-content: right;
@@ -161,11 +150,10 @@ li {
 .winkelwagen {
   background-color: #ffff00;
 }
-.ride{
+.ride {
   text-align: center;
- 
 }
 
 .about {
-margin-right: -20px;
+  margin-right: -20px;
 }

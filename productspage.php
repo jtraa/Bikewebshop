@@ -8,6 +8,7 @@
     <title>VONTRAA</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css2/products.css">
 </head>
 <body>
   <div class="container-header">
@@ -61,7 +62,11 @@
         </div>  
     </div>
 
-
+    <div class="products main">
+        <div class= "producten">
+        <?php include "productquerie.php"?>
+    </div>
+</div>
 
 
 

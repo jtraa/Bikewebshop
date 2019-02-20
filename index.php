@@ -40,7 +40,7 @@
         <div class="sectionmid section2-2 header2">
               <ul class="list-top list-bottom">
                 <li class="bikes">
-                    <a href="products.php"><strong>Bikes</strong></a>
+                    <a href="productspage.php"><strong>Bikes</strong></a>
                 </li>
                 <li class="ride">
                     <a href="ridethefuture.php"><strong>Ride the future</strong></a>
