@@ -69,19 +69,19 @@ color: white;
 
   /*hover buttons aanpassen*/
 .list-bottom li {
-      text-align: center;
+      
       display: block;
-      padding-top: 30px;
+      padding-top: 14px;
+      padding-bottom: 19px;
 
   }
+
+
 
 /* .list-bottom li a :hover{
  
 } */
 
-.list-bottom li a {
-  padding-top: 
-}
 
 .list-bottom :hover {
   background-color: yellow;
@@ -127,6 +127,11 @@ color: white;
 }
 .section2-2 {
   font-size: 15px;
+  
+}
+
+.section2-2 li a {
+ 
 }
 .top2 {
   align-content: right;
@@ -157,7 +162,10 @@ li {
   background-color: #ffff00;
 }
 .ride{
-  text-align: left;
-  padding-right: 35px;
+  text-align: center;
+ 
 }
 
+.about {
+margin-right: -20px;
+}
