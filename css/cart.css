@@ -1,0 +1,22 @@
+.main{
+   
+margin-top: 200px;   
+}
+
+
+.table{
+   
+    border: 2px solid red;
+}
+ .table li{
+    
+    margin-right: 350px;
+    display:block;
+    float: inherit;
+    float: left;
+    width: 10%; 
+    border: 2px solid red;
+    
+     /*adjust*/
+    
+}
