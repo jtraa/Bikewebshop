@@ -2,7 +2,7 @@
 <?php
 
 session_start();
-echo ($_SESSION['UserEmail']);
+
 ?>
 
 <!DOCTYPE html>
@@ -20,7 +20,7 @@ echo ($_SESSION['UserEmail']);
   <div class="container-header">
   <div class="wrapper-alphaheader">
       <div class="section section1 image">
-      <img id="logo" src="img/VANMOOF.jpg">
+          <img id="logo" src="img/VANMOOF.jpg">
          </div>  
         <div class="section section2 header">
           <div class="sectionmid section2-1">
@@ -33,13 +33,14 @@ echo ($_SESSION['UserEmail']);
             </ul>
             <ul class="list-top top2">
             
-                <li class="support">
-                    <a href="support.php"><strong>Support</strong></a>
-                </li>
-
                 <li class="language">
                     <a href="language.php"><strong>Netherlands</strong></a>
                 </li>
+                <li class="support">
+                    <a href="inloggen.php"><strong>Login</strong></a>
+                </li>
+
+                
                 
               </ul>
         </div>
@@ -64,12 +65,14 @@ echo ($_SESSION['UserEmail']);
         </div>
     </div>
         <div class="section section3 winkelwagen">
-                 <img id="cart" src="img/Winkelwagen2.png";>
+                <img id="cart" src="img/Winkelwagen2.png";>
         </div>  
     </div>
 
+
     <div class="products main">
         <div class= "producten">
+        <!-- <p> Welcome at the official site of VanMOOF <br><?php echo ($_SESSION['UserEmail']); ?></p> -->
         <?php include "productquerie.php"?>
         
     </div>

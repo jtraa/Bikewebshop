@@ -15,11 +15,11 @@
         foreach ($db_result as $row)
         {      
     
-          echo '<div class="product2 debug">' .
+          echo '<div class="product1 debug">' .
                    
                  
                          
-                 '<h2>' . $row['name'] . " " . $row['color'] . '    '.'€ '. $row['price']  . ',-' .'</h2>' . 
+                 '<li><h2>' . $row['name'] . '</li><li>' . $row['color'] . '</li><li>'.'€ '. $row['price']  . ',-' .'</h2></li><br><br><br><br>' . 
                 
                  
                 '</div>';

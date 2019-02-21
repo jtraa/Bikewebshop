@@ -29,6 +29,7 @@
                 <input type="submit" value="LOGIN" id="loginknop">
             </center>
         </form>
+        <p> You don't have an account? Register<a href="registeren.php"> here </a></p>
     </div>
 </body>
 </html>

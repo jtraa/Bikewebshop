@@ -5,7 +5,7 @@
 session_start();
 
 
-echo ($_SESSION['UserEmail']);
+// echo ($_SESSION['UserEmail']);
 
 
 
@@ -37,13 +37,14 @@ echo ($_SESSION['UserEmail']);
             </ul>
             <ul class="list-top top2">
             
-                <li class="support">
-                    <a href="support.php"><strong>Support</strong></a>
-                </li>
-
                 <li class="language">
                     <a href="language.php"><strong>Netherlands</strong></a>
                 </li>
+                <li class="support">
+                    <a href="inloggen.php"><strong>Login</strong></a>
+                </li>
+
+                
                 
               </ul>
         </div>
