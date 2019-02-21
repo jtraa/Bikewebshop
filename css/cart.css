@@ -10,12 +10,13 @@ margin-top: 200px;
 }
  .table li{
     
-    margin-right: 350px;
+    padding-right: 150px;
     display:block;
     float: inherit;
     float: left;
-    width: 10%; 
+    width: 20%; 
     border: 2px solid red;
+    
     
      /*adjust*/
     

@@ -1,4 +1,15 @@
 <!--//* HEADER VANTRAA*\\-->
+
+<?php
+
+session_start();
+
+
+echo ($_SESSION['UserEmail']);
+
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

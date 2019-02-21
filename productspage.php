@@ -1,4 +1,10 @@
 <!--//* HEADER VANTRAA*\\-->
+<?php
+
+session_start();
+echo ($_SESSION['UserEmail']);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -65,6 +71,7 @@
     <div class="products main">
         <div class= "producten">
         <?php include "productquerie.php"?>
+        
     </div>
 </div>
 

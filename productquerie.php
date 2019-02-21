@@ -1,7 +1,7 @@
 <?php
     include "db-connection.php";        
  
-    $sql_querie = "SELECT name, color, image, price FROM bikes";
+    $sql_querie = "SELECT bikeID, name, color, image, price FROM bikes";
     
     $db_result = $conn->query($sql_querie);  
 
@@ -17,10 +17,11 @@
              '<h6>' . $row['color'] .'</h6>' . 
              '<img src="' . $row['image'] . '" alt="' . '" style="width: 100%">' .
              
-             '<div id="add" class="cart"><a href=
-             "cart.php?name=' . $row['name'] . 
-             '&color=' . $row['color'] . 
-             '&price=' . $row['price'] .  '"><h2>Reserve</h2></a></div>' .
+            //  '<div id="add" class="cart"><a href=
+            //  "cart.php?name=' . $row['name'] . 
+            //  '&color=' . $row['color'] . 
+            //  '&price=' . $row['price'] .  '"><h2>Reserve</h2></a></div>' .
+              '<div id="add" class="cart"><a href="cart-handler.php?bikeID=' . $row['bikeID'] . '"><h2>Reserve</h2></a></div>' . 
 
 
              '<h5>'. '€ '  . $row['price']  . ',-' .'</h5>' . 

@@ -1,5 +1,9 @@
 <!--//* HEADER VANTRAA*\\-->
+<?php
 
+session_start();
+echo ($_SESSION['UserEmail']);
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -70,11 +74,9 @@
         <ul>
         <li>Product</li>
         <li>Paint</li>
-        <li>Price</li></ul>
-        <?php  $info3 = $_GET["name"]; echo $info3;?> 
-        <?php  $info = $_GET["color"]; echo $info;?> 
-        <?php  $info2 = $_GET["price"]; echo $info2;?> 
-        
+        <li>Price</li><br><br>
+       
+        <?php include "cart-show.php" ?>
     </div>
 
 </div>
