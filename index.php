@@ -24,7 +24,7 @@ session_start();
   <div class="container-header">
   <div class="wrapper-alphaheader">
       <div class="section section1 image">
-          <img id="logo" src="img/VANMOOF.jpg">
+          <a href=index.php><img id="logo" src="img/VANMOOF.jpg"></a>
          </div>  
         <div class="section section2 header">
           <div class="sectionmid section2-1">
@@ -69,7 +69,7 @@ session_start();
         </div>
     </div>
         <div class="section section3 winkelwagen">
-                <img id="cart" src="img/Winkelwagen2.png";>
+                <a style="margin-left: 35px;" href = "cart.php"><img id="cart" src="img/Winkelwagen2.png";></a>
         </div>  
     </div>
 

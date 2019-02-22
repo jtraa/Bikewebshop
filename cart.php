@@ -20,8 +20,8 @@ session_start();
 <body>
   <div class="container-header">
   <div class="wrapper-alphaheader">
-      <div class="section section1 image">
-          <img id="logo" src="img/VANMOOF.jpg">
+  <div class="section section1 image">
+          <a href=index.php><img id="logo" src="img/VANMOOF.jpg"></a>
          </div>  
         <div class="section section2 header">
           <div class="sectionmid section2-1">
@@ -65,8 +65,8 @@ session_start();
             
         </div>
     </div>
-        <div class="section section3 winkelwagen">
-                <img id="cart" src="img/Winkelwagen2.png";>
+    <div class="section section3 winkelwagen">
+                <a style="margin-left: 35px;" href = "cart.php"><img id="cart" src="img/Winkelwagen2.png";></a>
         </div>  
     </div>
 
@@ -81,7 +81,7 @@ session_start();
        
         <?php include "cart-show.php" ?>
         </ul>
-    </div>
+      </div>
 
 </div>
 

@@ -144,19 +144,43 @@ li {
 }
 
 #logo {
-  width: 50%;
+  width: 80%;
+  margin-left: 7%;
 }
 
 #cart {
-  width: 35%;
+  width: 54%;
 }
 .winkelwagen {
   background-color: #ffff00;
 }
+
+
 .ride {
   text-align: center;
 }
 
 .about {
   margin-right: -20px;
+}
+
+#blackbox {
+  margin-top: 180px;
+  margin-left: 420px;
+  text-align: center;
+  font-family: "Montserrat";
+  background-color: white;
+  border: 2px solid red;
+  position: absolute;
+}
+
+
+#blackbox2 {
+  position: absolute;
+  background-color: white;
+  margin-top: 250px;
+  margin-left: 550px;
+  border: 2px solid red;
+  text-align: center;
+  font-family: "Montserrat";
 }
