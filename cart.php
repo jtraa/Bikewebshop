@@ -16,6 +16,7 @@ session_start();
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css2/products.css">
     <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="css/inlogregistreer.css">
 </head>
 <body>
   <div class="container-header">
@@ -74,7 +75,7 @@ session_start();
 
     <div class="main">
         <div class="table">
-        <h1><strong>CART</strong></h1><br>
+        <center><h1><strong>CART</strong></h1><br></center>
 
         <ul>
         

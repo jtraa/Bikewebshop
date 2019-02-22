@@ -1,12 +1,15 @@
 .main{
 
-margin-top: 200px;   
+margin-top: 150px;  
+margin-left: 420px;
 }
 
 
 .table{
   width: 100%;
-    /* border: 2px solid black; */
+  background-color: white;
+  opacity: 0.9;
+    border: 2px solid black;
 }
 
 .table h2 {
@@ -14,7 +17,8 @@ padding-left: -100px;
 }
 
  .table li{
-    padding-right: 150px;
+    padding-left: 50px;
+    padding-bottom: -50px;
     display:block;
     
     /* float: center; */
