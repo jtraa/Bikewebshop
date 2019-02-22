@@ -74,10 +74,13 @@ session_start();
 
     <div class="main">
         <div class="table">
+        <h1><strong>CART</strong></h1><br>
+
         <ul>
-        <li>Product</li>
-        <li>Paint</li>
-        <li>Price</li><br><br>
+        
+        <li><strong>Product</strong></li>
+        <li><strong>Paint</strong></li>
+        <li><strong>Price</strong></li><br><br>
        
         <?php include "cart-show.php" ?>
         </ul>

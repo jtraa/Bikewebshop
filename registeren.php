@@ -7,6 +7,7 @@
     <title>VONTRAA</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/inlogregistreer.css">
 </head>
 <body>
   <div class="container-header">
@@ -65,22 +66,23 @@
 </div>
     <div id="blackbox">
         <div id="titel">
-            REGISTER
+           <strong> REGISTER </strong>
         </div>
+        <br>
         <div id="line">
         </div>
         <form class="modal-content" action="register-handler.php" method="POST">
             E-mail:<br>
             <input type="email" name="email" required><br>
             Password:<br>
-            <input type="password" name="password" required><br>
-            By creating an account you agree to our
-            <a href="">Terms & Privacy</a>.<br><br>
+            <input type="password" name="password" required><br><br>
+            
             <center>
                 <input type="submit" value="REGISTER" id="loginknop">
             </center>
+            <br>
         </form>
-        <p> You have an account already? Login<a href="inloggen.php"> here </a></p>
+        <p> You have an account already? <br> Login<a href="inloggen.php"> here </a></p>
     </div>
 </body>
 </html>

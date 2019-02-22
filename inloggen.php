@@ -11,12 +11,14 @@
     <title>VONTRAA</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="csss/inlogregistreer.css">
+    <link rel="stylesheet" href="css/inlogregistreer.css">
 </head>
 <body>
 
   <div class="container-header">
+ 
   <div class="wrapper-alphaheader">
+ 
       <div class="section section1 image">
           <a href=index.php><img id="logo" src="img/VANMOOF.jpg"></a>
          </div>  
@@ -66,24 +68,25 @@
                 <a style="margin-left: 35px;" href = "cart.php"><img id="cart" src="img/Winkelwagen2.png";></a>
         </div>  
     </div>
-    <div id=background-image> <img src="img/shanghai.jpg"> </div>
+    
 <div id="blackbox2">
 <form class="loginForm" action="login-handler.php" method="POST">   
         <div id="titel">
-            LOGIN
+           <strong> LOGIN </strong>
         </div>
         <div id="line">
         </div>
         <form><br>
             E-mail: <br>
-            <input type="email" id="username" name="user_email" autofocus required/><br><br>
+            <input type="email" id="username" name="user_email" autofocus required/><br>
             Password: <br>
             <input type="password" id="password" name="user_password" required/><br><br>
             <center>
                 <input type="submit" value="LOGIN" id="loginknop">
             </center>
+            <br>
         </form>
-        <p> You don't have an account? Register<a href="registeren.php"> here </a></p>
+        <p> You don't have an account?<br> Register<a href="registeren.php"> here </a></p>
     </div>
 </body>
 </html>

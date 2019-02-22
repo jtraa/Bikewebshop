@@ -1,21 +1,26 @@
 .main{
-   
+
 margin-top: 200px;   
 }
 
 
 .table{
-   
-    border: 2px solid red;
+  width: 100%;
+    /* border: 2px solid black; */
 }
+
+.table h2 {
+padding-left: -100px;
+}
+
  .table li{
-    
     padding-right: 150px;
     display:block;
-    float: inherit;
+    
+    /* float: center; */
     float: left;
-    width: 20%; 
-    border: 2px solid red;
+    width: 30%; 
+    /* border: 2px solid black; */
     
     
      /*adjust*/

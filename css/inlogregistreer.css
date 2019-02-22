@@ -1,6 +1,31 @@
- img{
-  z-index: -110;
-  
-  width: 50%;
-  height: 50%;
+body{
+    z-index: -100;
+    background-size: 100%;
+    /* <div id=image> <img src="img/shanghai.jpg"> </div> */
+    background-image: url("img/shanghai2.jpg");
+    background-repeat: no-repeat;
+    margin-bottom: 300px;
+    
+}
+
+#blackbox {
+    font-family: "Montserrat";
+    margin-left: 550px;
+    width: 20%;
+    opacity: 0.9;
+}
+
+#blackbox2 {
+    margin-top: 280px;
+    width: 20%;
+    opacity: 0.9;
+}
+
+#blackbox a {
+    text-decoration: none;
+}
+
+#blackbox2 a{
+    text-decoration: none;
+   
 }
