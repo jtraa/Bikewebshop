@@ -3,9 +3,8 @@ body{
     background-size: 100%;
     /* <div id=image> <img src="img/shanghai.jpg"> </div> */
     background-image: url("img/shanghai2.jpg");
+    background-color: #000000;
     background-repeat: no-repeat;
-    margin-bottom: 300px;
-    
 }
 
 #blackbox {

@@ -73,9 +73,9 @@
         </div>
         <form class="modal-content" action="register-handler.php" method="POST">
             E-mail:<br>
-            <input type="email" name="email" required><br>
+            <input type="email" name="email" autocomplete="off" required><br>
             Password:<br>
-            <input type="password" name="password" required><br><br>
+            <input type="password" name="password" autocomplete="off" required><br><br>
             
             <center>
                 <input type="submit" value="REGISTER" id="loginknop">

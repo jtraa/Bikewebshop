@@ -78,9 +78,9 @@
         </div>
         <form><br>
             E-mail: <br>
-            <input type="email" id="username" name="user_email" autofocus required/><br>
+            <input type="email" id="username" name="user_email" autocomplete="off" autofocus required/><br>
             Password: <br>
-            <input type="password" id="password" name="user_password" required/><br><br>
+            <input type="password" id="password" name="user_password" autocomplete="off" required/><br><br>
             <center>
                 <input type="submit" value="LOGIN" id="loginknop">
             </center>
